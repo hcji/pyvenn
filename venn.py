@@ -141,7 +141,7 @@ def venn2(labels, names=['A', 'B'], **options):
     """
     colors = options.get('colors', [default_colors[i] for i in range(2)])
     figsize = options.get('figsize', (9, 7))
-    dpi = options.get('dpi', 96)
+    dpi = options.get('dpi', 150)
     fontsize = options.get('fontsize', 14)
 
     fig = plt.figure(0, figsize=figsize, dpi=dpi)
@@ -185,7 +185,7 @@ def venn3(labels, names=['A', 'B', 'C'], **options):
     """
     colors = options.get('colors', [default_colors[i] for i in range(3)])
     figsize = options.get('figsize', (9, 9))
-    dpi = options.get('dpi', 96)
+    dpi = options.get('dpi', 150)
     fontsize = options.get('fontsize', 14)
 
     fig = plt.figure(0, figsize=figsize, dpi=dpi)
@@ -235,7 +235,7 @@ def venn4(labels, names=['A', 'B', 'C', 'D'], **options):
     """
     colors = options.get('colors', [default_colors[i] for i in range(4)])
     figsize = options.get('figsize', (12, 12))
-    dpi = options.get('dpi', 96)
+    dpi = options.get('dpi', 150)
     fontsize = options.get('fontsize', 14)
 
     fig = plt.figure(0, figsize=figsize, dpi=dpi)
@@ -295,7 +295,7 @@ def venn5(labels, names=['A', 'B', 'C', 'D', 'E'], **options):
     """
     colors = options.get('colors', [default_colors[i] for i in range(5)])
     figsize = options.get('figsize', (13, 13))
-    dpi = options.get('dpi', 96)
+    dpi = options.get('dpi', 150)
     fontsize = options.get('fontsize', 14)
 
     fig = plt.figure(0, figsize=figsize, dpi=dpi)
@@ -373,7 +373,7 @@ def venn6(labels, names=['A', 'B', 'C', 'D', 'E'], **options):
     """
     colors = options.get('colors', [default_colors[i] for i in range(6)])
     figsize = options.get('figsize', (20, 20))
-    dpi = options.get('dpi', 96)
+    dpi = options.get('dpi', 150)
     fontsize = options.get('fontsize', 14)
 
     fig = plt.figure(0, figsize=figsize, dpi=dpi)
